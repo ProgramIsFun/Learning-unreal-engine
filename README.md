@@ -104,6 +104,12 @@ Then we go to the two blueprints that will use this interface, We click class se
 And then in the Boost, In the event that is preset in the event graph, which is called actor being overlapped,  We will trigger the action, which is the function in the interface as a message.   And there has to be an Target for such message, We simply find the character class and let it be the target.
 
 And then in the character blueprint, We will add a Event node which will present the interface event, And we will launch the characters If this Events happens. 
+## Interface.
+https://www.youtube.com/watch?v=EQfml2D9hwE&ab_channel=AliElzoheiry
+Basically, we can define a interface Blueprints, By setting some function name and also the input and output. For example, a function name interact.
+Then we go to all the Blueprints that should be Intractable, And in the right side menu, we Signal that this blueprint will. implement the Interface By clicking the button.   And then we should implement what it should does when the event interact happened. 
+
+Because this interface thing must be dispatched somewhere,  Let's say a character when The bottom X is pressed. We check in the radius of one meters, if there are any objects that Has implemented the interact interface, If true, we dispatch this interface.
 
 ## Animation
 https://www.youtube.com/watch?v=etRZu5UG_S0&ab_channel=RyanLaley
