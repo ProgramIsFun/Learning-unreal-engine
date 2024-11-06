@@ -27,15 +27,22 @@ And in the Pick up blueprint. We have an overlapped event defined for number two
 2. casting of the other Actor to character is successful
 3. We set a variable To contain that character pointer.
 4. And then we will attach a new blueprint object(BP_Weapon_Component), Which extent USkeletalMeshComponent,  To the Character that the pointer points to. And BP_Weapon_Component is another blueprint we define elsewhere. This is simply as saying that we want to create an object,BP_Weapon_Component, and attach to that character. The exact behavior on what to do Will be separately defined after the begin play event in BP_Weapon_Component.
-5. Starting from this point, the things happened in a new blueprint,
+5. Starting from this point, the things happened in a new blueprint, BP_Weapon_Component
 6. When the new blueprint object is created and the begin play is triggered,
 7. We find the owner Actor,
 8. Trying to CAST to the character.
 9. If successful, we store the character pointer in a variable.
 10. We tried to READ. the mesh component variable Of the variable.
-11. 
+11. We call the attach component to component, The target Is SELF, The parent will be the variable we found in the previous step.
+12. Has RIFLE variable Of the character to true,  This is because we want to change the animation of the character.
+13. We try to get the controller of the character That's the character pointer points to.
+14. Trying to CAST to player controller
+15. Get the enhanced local player subsystem from the player controller.
+16. Add a new mapping contest To the subsystem.  The mapping contests simply map those physical keys to a specific action.
+17. If the action is fired,   Then we spawned the actor Offthe projectile and. play sound, etc.
+    
 
-We can see that in the cpp version, the number one component is directly the cpp class that we customize. However, in this blueprint version start template, The number one component simply Serve The appearance. 
+We can see that in the cpp version, Inside the pickup Blueprint. the number one component is directly the cpp class that we customize. However, in this blueprint version start template, The number one component simply Serve The appearance. 
 
 
 
