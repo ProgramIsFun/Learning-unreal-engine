@@ -11,7 +11,9 @@ For the function OnSphereBeginOverlap Which receive a number of parameters, incl
 
 So, in simple terms, We are binding a function OnSphereBeginOverlap To a OnComponentBeginOverlap Variable, which is a delegate that is defined in our Parent class. And we will broadcast a variable OnPickUp Which is a delegate type In this OnSphereBeginOverlap Function If the Actor that overlap with this component is a character. 
 
-And where to receive this on pickup event.  There is actually in the blueprints that contain these two components.   For this event, because we broadcast it with the character.   So from the red node of this event, the character output Will be used to call the attached weapons of that character.
+And where to receive this on pickup event.  There is actually in the blueprints that contain these two components.   For this event, because we broadcast it with the character.   So from the red node of this event, the character output Will be used to call the void AttachWeapon(Aue521fpscale37Character* TargetCharacter); Which is defined in our Number one component.  Because we have the pointer of that characters.      The number one component will call AttachToComponen(Which is a method defined in USceneComponent) To attach itself To the character USkeletalMeshComponent.     In the function  AttachWeapon, We also check the controller of the character, If it is a player controller, we also add a mapping contest class UInputMappingContext* FireMappingContext Which defined what physical button will trigger what intended action.     And we also add a mapping which Defined a specific action will trigger what function.
+
+
 
 <img src="https://github.com/user-attachments/assets/38120233-cbc9-47e6-8c29-438ee254e356" width="700" >
 
