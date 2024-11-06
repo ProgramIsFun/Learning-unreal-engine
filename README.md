@@ -21,7 +21,19 @@ A good thing to ask as ourself is When the attached weapon function of the numbe
 
 This works a little bit different.
 The pick up blueprints Still contains number one component and number two component.    However, this time, the number one component is purely USkeletalMeshComponent. It does not contain any of our customization.
-And in the Pick up blueprint. We have an overlapped event defined for number two component. And if it is triggered and casting of the other Actor to character is successful, We set a variable To contain that character pointer.  And then we will attach a new blueprint object, Which extent USkeletalMeshComponent,  To the Character that the pointer points to. And that blueprint object is another blueprint we define elsewhere.
+
+And in the Pick up blueprint. We have an overlapped event defined for number two component.
+1. And if it is triggered
+2. casting of the other Actor to character is successful
+3. We set a variable To contain that character pointer.
+4. And then we will attach a new blueprint object(BP_Weapon_Component), Which extent USkeletalMeshComponent,  To the Character that the pointer points to. And BP_Weapon_Component is another blueprint we define elsewhere. This is simply as saying that we want to create an object,BP_Weapon_Component, and attach to that character. The exact behavior on what to do Will be separately defined after the begin play event in BP_Weapon_Component.
+5. Starting from this point, the things happened in a new blueprint,
+6. When the new blueprint object is created and the begin play is triggered,
+7. We find the owner Actor,
+8. Trying to CAST to the character.
+9. If successful, we store the character pointer in a variable.
+10. We tried to READ. the mesh component variable Of the variable.
+11. 
 
 We can see that in the cpp version, the number one component is directly the cpp class that we customize. However, in this blueprint version start template, The number one component simply Serve The appearance. 
 
