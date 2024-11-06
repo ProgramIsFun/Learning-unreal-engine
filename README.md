@@ -16,6 +16,11 @@ If you want to bind a function to a delegate, write this in Cpp.
 Use blueprint assignable if you want to react to this delegate inside blueprint.
 Use blueprint callable if you want to trigger this Delegate
 
+- https://www.youtube.com/watch?v=OEmGbMEbqZo&t=12s&ab_channel=KITATUS
+  - https://github.com/KITATUS/KFEventDispatchers 
+
+
+
 ## Using this keyword And also how to use instigator
 https://www.youtube.com/watch?v=vSI0vs-fvu0&ab_channel=PobatoTutorials
 
