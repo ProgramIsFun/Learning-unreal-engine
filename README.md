@@ -119,6 +119,8 @@ Let's say we do not use the interface. In any of the blueprint that is supposed 
 In the image down below left and right, The Red Node Represent same events.   They both represent that there is an event dispatcher call on death, defined in that component. And the red node event represents. that dispatcher has indeed been dispatched.       But the right side style, which consists of three nodes. Has an advantage, which is we can actually unbind events
 ![image](https://github.com/user-attachments/assets/188c4399-9677-4a9d-a340-83d67b42b689)
 
+The similarity of EVENT dispatchers and interface. They are all shouts Something to somewhere. For event dispatchers, We do not need to care who has listen to this event.  However, if we Use interface. We assume that something has implemented this interface.       So I would say that the event dispatcher method give us more freedom, because we are not forced to implement the interface for something that has to be responsible to the event. We simply needed to define the on events of that specific class that invoke the event dispatchers.
+
 
 ## Animation
 https://www.youtube.com/watch?v=etRZu5UG_S0&ab_channel=RyanLaley
