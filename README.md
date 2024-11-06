@@ -16,6 +16,18 @@ And where to receive this on pickup event.  There is actually in the blueprints 
 
 A good thing to ask as ourself is When the attached weapon function of the number one component get called, it attach to the character actor.  Does it bring the number two component altogether? Or number two component Will now be the root component of that pick up rifle blueprint on the ground.
 
+
+## The official Example of a First person CPP project In unreal engine, 5.2.1  Blueprint version
+
+This works a little bit different.
+The pick up blueprints Still contains number one component and number two component.    However, this time, the number one component is purely USkeletalMeshComponent. It does not contain any of our customization.
+And in the Pick up blueprint. We have an overlapped event defined for number two component. And if it is triggered and casting of the other Actor to character is successful, We set a variable To contain that character pointer.  And then we will attach a new blueprint object, Which extent USkeletalMeshComponent,  To the Character that the pointer points to. And that blueprint object is another blueprint we define elsewhere.
+
+We can see that in the cpp version, the number one component is directly the cpp class that we customize. However, in this blueprint version start template, The number one component simply Serve The appearance. 
+
+
+
+
 ## C++ Delegates for Unreal Engine in 5 Minutes!
 https://www.youtube.com/watch?v=FDc2jUiwFoc&ab_channel=PobatoTutorials
 <img src="https://github.com/user-attachments/assets/afccbbef-ed14-446e-81f0-2b4010f1b418" width="700" >
