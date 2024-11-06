@@ -4,6 +4,10 @@
 - https://www.youtube.com/watch?v=FDc2jUiwFoc&ab_channel=PobatoTutorials
 <img src="https://github.com/user-attachments/assets/afccbbef-ed14-446e-81f0-2b4010f1b418" width="700" >
 
+If you want to bind a function to a delegate, write this in Cpp.
+![image](https://github.com/user-attachments/assets/f1989b72-2d25-4e73-a9ce-964e1d2c441c)
+
+
 - https://www.youtube.com/watch?v=PQ7NvNbcHtY&ab_channel=PobatoTutorials
   - This one is about blueprints Related delegates
  
