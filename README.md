@@ -13,8 +13,10 @@
 # Learning-unreal-engine
 ## The official Example of a First person CPP project In unreal engine, 5.2 .1.
 In the pick up Blueprints that is put on the ground, 
+
 Number1. UTP_WeaponComponent Is the root component of such a blueprint, Which details is implemented in CPP,    By the way, it inherits USkeletalMeshComponent.
-2. And we have attached UTP_PickUpComponent Toward this root component. By the way, it inherits USphereComponent, Which inherits UShapeComponent, Which is usually could be considered to deal with the on overlap thing.
+
+Number2. And we have attached UTP_PickUpComponent Toward this root component. By the way, it inherits USphereComponent, Which inherits UShapeComponent, Which is usually could be considered to deal with the on overlap thing.
 
 Because we want the player when it's step on the Number two, The character will pick up a weapon,
 So in the beginplay function of the Number two in CPP implementation,  	OnComponentBeginOverlap.AddDynamic(this, &UTP_PickUpComponent::OnSphereBeginOverlap);     By the way,  OnComponentBeginOverlap Is a variable which is a Delegate type define in  Primitive component header. 
