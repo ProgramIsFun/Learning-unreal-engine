@@ -1,4 +1,16 @@
 # Learning-unreal-engine
+## The official Example of a First person CPP project In unreal engine, 5.2 .1.
+In the pick up Blueprints that is put on the ground, 
+Number1. UTP_WeaponComponent Is the root component of such a blueprint, Which details is implemented in CPP,    By the way, it inherits USkeletalMeshComponent.
+2. And we have attached UTP_PickUpComponent Toward this root component. By the way, it inherits USphereComponent, Which inherits UShapeComponent, Which is usually could be considered to deal with the on overlap thing.
+
+Because we want the player when it's step on the Number two, The character will pick up a weapon,
+So in the beginplay function of the Number two in CPP implementation,  	OnComponentBeginOverlap.AddDynamic(this, &UTP_PickUpComponent::OnSphereBeginOverlap);     By the way,  OnComponentBeginOverlap Is a variable which is a Delegate type define in  Primitive component header. 
+
+For the function OnSphereBeginOverlap Which receive a number of parameters, including what actors step on this thing.  In this function, We first cast the actor to see whether it is a character. If casting is Successful , OnPickUp.Broadcast(Character);  
+
+So, in simple terms, We are binding a function OnSphereBeginOverlap To a OnComponentBeginOverlap Variable, which is a delegate that is defined in our Parent class. And we will broadcast a variable OnPickUp Which is a delegate type In this OnSphereBeginOverlap Function.
+
 
 ## C++ Delegates for Unreal Engine in 5 Minutes!
 https://www.youtube.com/watch?v=FDc2jUiwFoc&ab_channel=PobatoTutorials
