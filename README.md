@@ -105,6 +105,12 @@ And then in the Boost, In the event that is preset in the event graph, which is 
 
 And then in the character blueprint, We will add a Event node which will present the interface event, And we will launch the characters If this Events happens. 
 
+## Animation
+https://www.youtube.com/watch?v=etRZu5UG_S0&ab_channel=RyanLaley
+
+In animation blueprints, The event graph will help To set up some values of some variables.
+
+The animation graph will usually make use of those variables To determine whether we should change from some state to another state.
 
 
 ## Using this keyword And also how to use instigator
