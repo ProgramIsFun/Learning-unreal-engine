@@ -6,6 +6,11 @@
 
 - https://www.youtube.com/watch?v=PQ7NvNbcHtY&ab_channel=PobatoTutorials
   - This one is about blueprints Related delegates
+ 
+![image](https://github.com/user-attachments/assets/45347113-3af3-436e-b963-163ad72129b1)
+
+Use blueprint assignable if you want to react to this delegate inside blueprint.
+Use blueprint callable if you want to trigger this Delegate
 
 ## Using this keyword And also how to use instigator
 https://www.youtube.com/watch?v=vSI0vs-fvu0&ab_channel=PobatoTutorials
