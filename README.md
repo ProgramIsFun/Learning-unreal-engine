@@ -35,7 +35,14 @@ https://www.youtube.com/watch?v=5GYsTTcGGJo&ab_channel=BuvesaGameDevelopment
 ## How to use Blueprint Interfaces in Unreal Engine 5 in less than 3 minutes
 https://www.youtube.com/watch?v=Ba_gEz229Wg&ab_channel=JoeyChimney
 
+So basically we have a cube blueprint Called boost.  And a character blueprint.
+What we want to achieve is when the character walk into the cube, It will be launched into the air.
+So we first create a blueprint interface, And we create a function called boosting.
+Then we go to the two blueprints that will use this interface, We click class settings and we implement the interface.
 
+And then in the Boost, In the event that is preset in the event graph, which is called actor being overlapped,  We will trigger the action, which is the function in the interface as a message.   And there has to be an Target for such message, We simply find the character class and let it be the target.
+
+And then in the character blueprint, We will add a Event node which will present the interface event, And we will launch the characters If this Events happens. 
 
 
 
