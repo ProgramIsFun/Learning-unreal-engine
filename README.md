@@ -31,6 +31,14 @@ In simple terms.  If we want to fire some events from some class. In that class,
 ## Event Dispatchers | Blueprint Communications | Unreal Engine 5 Tutorial
 https://www.youtube.com/watch?v=5GYsTTcGGJo&ab_channel=BuvesaGameDevelopment
 
+
+## How to use Blueprint Interfaces in Unreal Engine 5 in less than 3 minutes
+https://www.youtube.com/watch?v=Ba_gEz229Wg&ab_channel=JoeyChimney
+
+
+
+
+
 ## Using this keyword And also how to use instigator
 https://www.youtube.com/watch?v=vSI0vs-fvu0&ab_channel=PobatoTutorials
 
