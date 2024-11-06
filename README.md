@@ -2,8 +2,7 @@
 ## Delegates
 
 - https://www.youtube.com/watch?v=FDc2jUiwFoc&ab_channel=PobatoTutorials
-![image](https://github.com/user-attachments/assets/afccbbef-ed14-446e-81f0-2b4010f1b418)
-
+<img src="https://github.com/user-attachments/assets/afccbbef-ed14-446e-81f0-2b4010f1b418" width="700" >
 - https://www.youtube.com/watch?v=PQ7NvNbcHtY&ab_channel=PobatoTutorials
   - This one is about blueprints Related delegates
 
