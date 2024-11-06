@@ -111,10 +111,18 @@ Then we go to all the Blueprints that should be Intractable, And in the right si
 
 Because this interface thing must be dispatched somewhere,  Let's say a character when The bottom X is pressed. We check in the radius of one meters, if there are any objects that Has implemented the interact interface, If true, we dispatch this interface.
 
-### The benefits of using the interface
+
+The benefits of using the interface
+
 Let's say we do not use the interface. In any of the blueprint that is supposed to be interactable, we specifically create a function Named is intractable or not, And then it returns the true or false value.            Then in the blueprint of the character, when we press X. We checked in the radius of one meters, whether we hit some actor or not, We need to cast the actor to all of the related blueprint types, and then check whether it has a function name Intractable or not.  The reason that we need to CAST because not every actor have this function.  In this case, we make a lot of extra unnecessary works to check whether an object is Intractable or not.
+
+In the image down below left and right, The Red Node Represent same events.
+![image](https://github.com/user-attachments/assets/188c4399-9677-4a9d-a340-83d67b42b689)
+
+
 ## Animation
 https://www.youtube.com/watch?v=etRZu5UG_S0&ab_channel=RyanLaley
+
 
 In animation blueprints, The event graph will help To set up some values of some variables.
 
