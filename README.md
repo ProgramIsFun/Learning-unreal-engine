@@ -111,6 +111,11 @@ https://www.youtube.com/watch?v=etRZu5UG_S0&ab_channel=RyanLaley
 In animation blueprints, The event graph will help To set up some values of some variables.
 
 The animation graph will usually make use of those variables To determine whether we should change from some state to another state.
+In the animation graph, we might have a lot of state machines. Each state machine could be called a locomotion. Inside these state machines, we might have a lot of states, such as idle, such as walking. Inside of these states, we can set the real animation player, Which seems also tied to one specific skeleton only.
+
+One animation blueprint is usually bounded to only one skeleton mesh.   
+
+
 
 
 ## Using this keyword And also how to use instigator
