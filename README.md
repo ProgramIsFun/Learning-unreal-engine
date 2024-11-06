@@ -17,7 +17,10 @@ Use blueprint assignable if you want to react to this delegate inside blueprint.
 Use blueprint callable if you want to trigger this Delegate
 
 - https://www.youtube.com/watch?v=OEmGbMEbqZo&t=12s&ab_channel=KITATUS
-  - https://github.com/KITATUS/KFEventDispatchers 
+  - https://github.com/KITATUS/KFEventDispatchers
+ 
+In the first example, pure blueprint is used.
+In the second example, we have a CPP class for the pick up component and also the widget.  The TEST render component on the WALL is a blueprint.
 
 
 
