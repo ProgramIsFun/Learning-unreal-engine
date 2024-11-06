@@ -7,3 +7,5 @@
 ## Using this keyword And also how to use instigator
 https://www.youtube.com/watch?v=vSI0vs-fvu0&ab_channel=PobatoTutorials
 
+The instigator LET the projectile know who create this projectile, so when dealing damage, we can trace back to who spawned this projectile.
+
