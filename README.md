@@ -9,7 +9,12 @@ So in the beginplay function of the Number two in CPP implementation,  	OnCompon
 
 For the function OnSphereBeginOverlap Which receive a number of parameters, including what actors step on this thing.  In this function, We first cast the actor to see whether it is a character. If casting is Successful , OnPickUp.Broadcast(Character);  
 
-So, in simple terms, We are binding a function OnSphereBeginOverlap To a OnComponentBeginOverlap Variable, which is a delegate that is defined in our Parent class. And we will broadcast a variable OnPickUp Which is a delegate type In this OnSphereBeginOverlap Function.
+So, in simple terms, We are binding a function OnSphereBeginOverlap To a OnComponentBeginOverlap Variable, which is a delegate that is defined in our Parent class. And we will broadcast a variable OnPickUp Which is a delegate type In this OnSphereBeginOverlap Function If the Actor that overlap with this component is a character. 
+
+And where to receive this on pickup event.  There is actually in the blueprints that contain these two components.   For this event, because we broadcast it with the character.   So from the red node of this event, the character output Will be used to call the attached weapons of that character.
+
+<img src="https://github.com/user-attachments/assets/38120233-cbc9-47e6-8c29-438ee254e356" width="700" >
+
 
 
 ## C++ Delegates for Unreal Engine in 5 Minutes!
