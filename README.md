@@ -13,6 +13,7 @@
 # Learning-unreal-engine
 
 ## How to re-compile CPP
+If any source file is changed, we need to recompile so that the engine could be notified.
 https://forums.unrealengine.com/t/live-coding/763051
 
 
