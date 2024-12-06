@@ -14,7 +14,11 @@
 
 ## How to re-compile CPP
 If any source file is changed, we need to recompile so that the engine could be notified.
+live-coding Is one of the quick ways.  
+
 https://forums.unrealengine.com/t/live-coding/763051
+
+https://www.youtube.com/watch?v=QxBuQxaU-_k&ab_channel=techHow
 
 
 ## good Tutorials
