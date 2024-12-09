@@ -11,7 +11,8 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
-
+## Component
+Static Mesh Component is the actual figure of a thing. It also cannot be animated. Skeletal Mesh Components can be animated.
 ## How to re-compile CPP
 If any source file is changed, we need to recompile so that the engine could be notified.
 live-coding Is one of the quick ways.  
