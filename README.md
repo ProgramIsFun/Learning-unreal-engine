@@ -24,6 +24,9 @@ It deal with basic input actions because when we move left or right or aim at di
 It deal with some health counts AMMO count. and also some HUD usage.
 When we want to change something in the HUD, we usually want to get the variable in the blueprint and then access some property within that variable and do Something like Set teXt.
 
+In the blueprint, it has two severe surrounded, the large severe when it is collided, when with the user, then the BOT will start moving toward the player. When the small severe collide with the player, then it will explode.
+
+
 ## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
 Everything purely in blueprint.
 A very good guide on I'm making a menu.
