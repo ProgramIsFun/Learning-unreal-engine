@@ -18,7 +18,7 @@ First of all, the map it default has a world override blueprint. Which override 
 
 And also in this blueprint, it will set the player controller class to another blueprint.  
 
-The player controller class will First of all trigger the begin play event in the apparent controller class, And then it will create the main ui when begin play is detected.
+The player controller class will First of all trigger the begin play event in the apparent controller class, And then it will create the main ui when begin play is detected. Which is a widget class
 
 
 
