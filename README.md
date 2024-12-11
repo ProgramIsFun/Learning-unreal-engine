@@ -23,6 +23,7 @@ It deal with simple animations, Which is aiming or not aiming.
 It deal with basic input actions because when we move left or right or aim at different directions.
 It deal with some health counts AMMO count. and also some HUD usage.
 When we want to change something in the HUD, we usually want to get the variable in the blueprint and then access some property within that variable and do Something like Set teXt.
+It separates HUD into two blueprint. One is character XUD, another one is Game mode XUD. The former one display things related to characters such as health and ammo, The later one display some global things such as the announcement, which is the counter of the timer in warm up time, and also. the numbers of enemies, etc.
 
 We could classify the project's materials into certain parts.   
 - One is the Game mode blueprint. On every TICK it checked the section states on whether it is Warm up or playing, And update the timer Respectively by calling the function. The function is defined in itself.    In the function update warm up timer, Eventually, it will trigger the beginplay function.
