@@ -11,8 +11,13 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
-## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
+## https://github.com/CHPrado/first-person-shooter
+Everything purely in blueprint.
+Pretty good example and demo a very simple first person shooter.
+In the character blueprint, when initialized ,  HUD will be created and added to the variable.
 
+## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
+Everything purely in blueprint.
 A very good guide on I'm making a menu.
 First of all, the map it default has a world override blueprint. Which override the game mode       
 
