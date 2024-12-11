@@ -11,7 +11,16 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
-## Component
+
+## How to avoid the engine adding starter content automatically?
+[StartupActions]
+bAddPacks=False
+InsertPack=(PackSource="StarterContent.upack",PackName="StarterContent")
+
+## How to delete the started Starter content in the correct way
+First of all delete map.  And then the architecture.  And then SH, APE.   And then blueprint.  And then PROPS.  And then materials.  And then particle. 
+
+## Static Mesh Component     Skeletal Mesh Components      
 Static Mesh Component is the actual figure of a thing. It also cannot be animated. Skeletal Mesh Components can be animated.
 ## How to re-compile CPP
 If any source file is changed, we need to recompile so that the engine could be notified.
