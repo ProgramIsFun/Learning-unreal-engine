@@ -24,7 +24,10 @@ It deal with basic input actions because when we move left or right or aim at di
 It deal with some health counts AMMO count. and also some HUD usage.
 When we want to change something in the HUD, we usually want to get the variable in the blueprint and then access some property within that variable and do Something like Set teXt.
 
-In the blueprint, it has two severe surrounded, the large severe when it is collided, when with the user, then the BOT will start moving toward the player. When the small severe collide with the player, then it will explode.
+In the blueprint, it has two severe surrounded, 
+1. the large severe when it is collided, when with the user, then the BOT will start moving toward the player.
+2. When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded it will triggered the function in another Blueprint, which is the game mode. After the function is completed, it will destroy itself.
+
 
 
 ## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
