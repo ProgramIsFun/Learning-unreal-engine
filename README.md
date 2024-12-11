@@ -11,6 +11,10 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
+## Difference of micro and functions and blueprint.
+Function are like functions in a programming language. Can be called from outside, has state, supports inheritance, but no latent nodes (like delays) are allowed.
+
+Macro is like copy pasting your code. Can't be called from outside of the class, can't have state, inheritance, but can have latent nodes and you can make them execless or with multiple execs (exec is a white line with a triangle that connects nodes and defines flow). Note that you can't use macro in functions if macro contains latent nodes (because it's basically copy pasting and functions can't have latent nodes as stated above).
 ## https://github.com/CHPrado/first-person-shooter
 Everything purely in blueprint.
 Pretty good example and demo a very simple first person shooter.
