@@ -18,6 +18,7 @@ In the character blueprint, when initialized ,  HUD will be created and added to
 It deal with simple animations, Which is aiming or not aiming.
 It deal with basic input actions because when we move left or right or aim at different directions.
 It deal with some health counts AMMO count. and also some HUD usage.
+When we want to change something in the HUD, we usually want to get the variable in the blueprint and then access some property within that variable and do Something like Set teXt.
 
 ## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
 Everything purely in blueprint.
