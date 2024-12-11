@@ -15,6 +15,9 @@
 Everything purely in blueprint.
 Pretty good example and demo a very simple first person shooter.
 In the character blueprint, when initialized ,  HUD will be created and added to the variable.
+It deal with simple animations, Which is aiming or not aiming.
+It deal with basic input actions because when we move left or right or aim at different directions.
+It deal with some health counts AMMO count. and also some HUD usage.
 
 ## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
 Everything purely in blueprint.
