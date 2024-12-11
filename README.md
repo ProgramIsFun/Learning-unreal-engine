@@ -24,10 +24,18 @@ It deal with basic input actions because when we move left or right or aim at di
 It deal with some health counts AMMO count. and also some HUD usage.
 When we want to change something in the HUD, we usually want to get the variable in the blueprint and then access some property within that variable and do Something like Set teXt.
 
+We could classify the project's materials into certain parts.   
+- One is the Game mode blueprint. On every TICK it checked the section states on whether it is Warm up or playing, And update the timer Respectively by calling the function. The function is defined in itself.    In the function update warm up timer, Eventually, it will trigger the beginplay function.
+  - In the beginplay function, it will first modify the ENUM variable, Which is the game section state.     And then it will retrieve the PAWN from global state, And then get the controller of this PAWN.  And then it will cast to Player controller, And then it will enable the input for that PAWN.  And then it will set the announcement of the widgets to be an empty text, which is originally used to display the countdown in the warm up time.
+ 
+ 
+
+
+
 In the blueprint, it has two severe surrounded, 
 1. the large severe when it is collided, when with the user, then the BOT will start moving toward the player.
 2. When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded, The drone blueprints will try to get the current game mode and cast it to the game mode that we are actually using.  it will triggered the function in The Game mode blueprint, which is the game mode. After the function is completed, it will destroy itself.
-3. 
+
 
 
 
