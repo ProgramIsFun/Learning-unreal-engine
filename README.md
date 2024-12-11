@@ -20,6 +20,8 @@ And also in this blueprint, it will set the player controller class to another b
 
 The player controller class will First of all trigger the begin play event in the apparent controller class, And then it will create the main ui when begin play is detected. Which is a widget class
 
+Right now, there is still a lot of things that I don't understand. Maybe I could start from basics on how to create a widgets, how to push The widgets etc.
+
 
 
 ## How to avoid the engine adding starter content automatically?
