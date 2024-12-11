@@ -26,7 +26,8 @@ When we want to change something in the HUD, we usually want to get the variable
 
 In the blueprint, it has two severe surrounded, 
 1. the large severe when it is collided, when with the user, then the BOT will start moving toward the player.
-2. When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded it will triggered the function in another Blueprint, which is the game mode. After the function is completed, it will destroy itself.
+2. When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded, The drone blueprints will try to get the current game mode and cast it to the game mode that we are actually using.  it will triggered the function in The Game mode blueprint, which is the game mode. After the function is completed, it will destroy itself.
+3. 
 
 
 
