@@ -14,7 +14,11 @@
 ## https://github.com/everythingallaccount/Ultimate-CommonUI-Menu-System-Backup
 
 A very good guide on I'm making a menu.
-First of all, the map it default has a world override blueprint. Which override the game mode       And also in this blueprint, it will set the player controller class to another blueprint.  The player controller class will create the main ui when begin play is detected.
+First of all, the map it default has a world override blueprint. Which override the game mode       
+
+And also in this blueprint, it will set the player controller class to another blueprint.  
+
+The player controller class will First of all trigger the begin play event in the apparent controller class, And then it will create the main ui when begin play is detected.
 
 
 
