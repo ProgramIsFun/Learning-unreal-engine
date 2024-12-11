@@ -30,12 +30,15 @@ We could classify the project's materials into certain parts.
   - In the beginplay function, it will first modify the ENUM variable, Which is the game section state.     And then it will retrieve the PAWN from global state, And then get the controller of this PAWN.  And then it will cast to Player controller, And then it will enable the input for that PAWN.  And then it will set the announcement of the widgets to be an empty text, which is originally used to display the countdown in the warm up time.
  
  
-
-
-
-In the blueprint, it has two severe surrounded, 
-1. the large severe when it is collided, when with the user, then the BOT will start moving toward the player.
-2. When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded, The drone blueprints will try to get the current game mode and cast it to the game mode that we are actually using.  it will triggered the function in The Game mode blueprint, which is the game mode. After the function is completed, it will destroy itself.
+- One is the DROWN blueprint
+  - In the blueprint, it has two severe surrounded, The lodge and the smaller one, and all of them has an uncollied event.
+  - Events.
+    - When begin play event kickstart we will bind the event on TAKE damage, And then it will run the PATLOL Micro.  This macro responsible for moving the drone toward different locations.
+      - Two LATENT node is used. So this thing has to be a macro, but not a function.  One of them is to move Itself to a specific actor. When finished, it will continue the execution.     But one of them is the delayed node, which has continued the execution after one second.    
+    - the large severe when it is collided, when with the user, then the BOT will start moving toward the player.
+    - When the small severe collide with the player, then it will explode.  Which will play some sound and effects at the location of the player.  It will also apply damage and notice the node of applied damage only runs on the server.       And noticed when exploded, The drone blueprints will try to get the current game mode and cast it to the game mode that we are actually using.  it will triggered the function in The Game mode blueprint, which is the game mode. After the function is completed, it will destroy itself.
+    - On TICK.  Although the ai will help us navigate the DROWN to walk the player, but we have to manually set the rotations so that the drone could be facing the player.
+      
 
 
 
