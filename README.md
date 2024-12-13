@@ -11,6 +11,12 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
+## 
+each player is typically assigned a single PlayerController.  
+
+One widgets will have only one owner, which is a player controller.
+
+one player controller could only have one HUD   .    
 ## Notes when copying source code of the engine to your own usage.
 UCLASS         GENERATED_BODY        Make sure these tools are used instead.    https://github.com/ProgramIsFun/ue5-force-graph/commit/5aa710133c03183c35286e194b8ab85e58b7eb5e
 ## Difference of micro and functions and blueprint.
