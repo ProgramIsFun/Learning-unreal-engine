@@ -11,7 +11,7 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
-## 
+## Don't use too much Canvas panel.
 It seems using only one campus panel is enough, using more will harm your frame rate.
 https://www.youtube.com/watch?v=_A8b-WkJkxI&ab_channel=Spacemarine658
 ## 
