@@ -13,7 +13,7 @@
 # Learning-unreal-engine
 ## Don't use too much Canvas panel.
 It seems using only one campus panel is enough, using more will harm your frame rate.
-https://www.youtube.com/watch?v=_A8b-WkJkxI&ab_channel=Spacemarine658
+https://www.youtube.com/watch?v=_A8b-WkJkxI&ab_channel=Spacemarine658  This example right here, he used only one canvas panel in the ferry outer layer, and all the insights could be overlay.
 ## 
 each player is typically assigned a single PlayerController.  
 
