@@ -12,6 +12,9 @@
 
 # Learning-unreal-engine
 ## 
+It seems using only one campus panel is enough, using more will harm your frame rate.
+https://www.youtube.com/watch?v=_A8b-WkJkxI&ab_channel=Spacemarine658
+## 
 each player is typically assigned a single PlayerController.  
 
 One widgets will have only one owner, which is a player controller.
