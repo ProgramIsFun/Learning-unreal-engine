@@ -11,6 +11,9 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Learning-unreal-engine
+## Good tutorial about material editor
+https://www.youtube.com/watch?v=FnycYhPiIt0&ab_channel=ChrisBromley
+
 ## Don't use too much Canvas panel.
 It seems using only one campus panel is enough, using more will harm your frame rate.
 https://www.youtube.com/watch?v=_A8b-WkJkxI&ab_channel=Spacemarine658  This example right here, he used only one canvas panel in the ferry outer layer, and all the insights could be overlay.
