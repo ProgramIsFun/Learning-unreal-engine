@@ -10,7 +10,11 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# Learning-unreal-engine
+# Learning-unreal-engine 
+
+##  Notice about redirectors when moving things or renaming things.
+ 
+https://www.youtube.com/watch?v=mIf4tgg0aD8&ab_channel=Z-AxisUp
 ## Good tutorial about material editor
 https://www.youtube.com/watch?v=FnycYhPiIt0&ab_channel=ChrisBromley
 
